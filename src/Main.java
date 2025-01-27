@@ -34,8 +34,8 @@ public class Main {
         int countryPopulation = 12_000_000;
         int mortalePopulation = 8;
         int natalityPopilation = 17;
-        int curreityear = 2024;
-        for (int year = curreityear; year < curreityear + 10; year++) {
+        int curreitYear = 2024;
+        for (int year = curreitYear; year < curreitYear + 10; year++) {
             countryPopulation += countryPopulation * natalityPopilation / 1000 - countryPopulation * mortalePopulation / 1000;
 
             System.out.println("Год " + year + ", численность населения составляет " + countryPopulation);
@@ -76,7 +76,7 @@ public class Main {
             while (month3 <= months) {
                 vasilyСontribution2 = (int) (vasilyСontribution2 * (1 + vasilyPrecent2));
                 month3++;
-                if (month2 % 6 == 0) {
+                if (month3 % 6 == 0) {
                     System.out.println("месяц:" + month3 + " вклад:" + vasilyСontribution2 + " рублей");}
 
                 }
@@ -85,7 +85,7 @@ public class Main {
 
             int friday = 3;
             for (int m = friday; m <= 31 ; m += 7){
-                    System.out.println("день отчёта:" + m );
+                    System.out.println("Сегодня пятница, "+ m + " число. Необходимо подготовить отчет" );
                 }
             }
         System.out.println("задача 8");
